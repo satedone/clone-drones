@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -46,6 +48,15 @@ img {
 .striker_title {
 	border: 2px solid red;
 }
+
+.main_title {
+	font-family:  "Fjalla One", sans-serif;
+	font-size: 140px;
+	font-weight: 400;
+	line-height: 0.9em;
+
+}
+
 
 .gr_gr_lines {
 	border: 2px solid red;
