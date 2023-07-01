@@ -48,9 +48,22 @@ img {
 }
 
 .gr_gr_lines {
-	height: 10px;
-	background-color: aquamarine;
-	border: 2px solid red;
+
+}
+
+.green_line {
+	height: 3px;
+	width: 25%;
+	background-color: #0ad19d;
+	border-radius: 2px;
+}
+
+.gray_line {
+	margin-left: 15px;
+	height: 3px;
+	width: 10%;
+	background-color: #144d3e;
+	border-radius: 2px;
 }
 
 .striker_buttons {
@@ -91,4 +104,9 @@ img {
 	height: 100%;
 	background-color: rgba(28, 29, 30, 0.66);
 	z-index: 1;
+  }
+
+  .drone_img_about img {
+	height: 550px;
+	
   }
