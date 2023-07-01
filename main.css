@@ -48,12 +48,12 @@ img {
 }
 
 .gr_gr_lines {
-
+	border: 2px solid red;
 }
 
 .green_line {
 	height: 3px;
-	width: 25%;
+	width: 70px;
 	background-color: #0ad19d;
 	border-radius: 2px;
 }
@@ -61,7 +61,7 @@ img {
 .gray_line {
 	margin-left: 15px;
 	height: 3px;
-	width: 10%;
+	width: 35px;
 	background-color: #144d3e;
 	border-radius: 2px;
 }
@@ -89,7 +89,7 @@ img {
 	border: 2px solid red;
 }
 .about_container {
-	min-height: 590px;
+	min-height: 500px;
 	position: relative;
 	z-index: 2;
 	border: 2px solid red;
@@ -104,9 +104,47 @@ img {
 	height: 100%;
 	background-color: rgba(28, 29, 30, 0.66);
 	z-index: 1;
-  }
+}
 
-  .drone_img_about img {
-	height: 550px;
+.drone_img_about img {
+	border: 2px solid red;
+}
+
+.about_content {
+	border: 2px solid red;
+}
+
+.about_title {
+	border: 2px solid red;
+}
+
+.about p {
+	border: 2px solid red;
+}
+.about span {
+	color: rgb(197, 197, 197);
+	border: 2px solid red;
+}  
+.table_statistic {
+	min-width: 350px;
+	border: 2px solid red;
 	
-  }
+}
+
+.stat_row {
+	border: 2px solid red;
+}
+
+.stat_col_green {
+	border: 2px solid red;
+	font-size: 27px;
+	color: rgb(10, 209, 157);
+	vertical-align: baseline;
+}
+
+.stat_col_white {
+	border: 2px solid red;
+	font-size: 23px;
+	vertical-align: baseline;
+}
+
