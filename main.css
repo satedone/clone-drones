@@ -28,3 +28,43 @@ img {
 	border: 2px solid red;
 }
 
+.striker {
+	background-image: url(img/striker_drones.jpg);
+	background-position: center;
+	border: 2px solid red;
+	min-height: 750px;
+
+
+}
+
+.striker_container {
+	height: 600px;
+	border: 2px solid red;
+
+}
+
+.striker_title {
+	border: 2px solid red;
+}
+
+.gr_gr_lines {
+	height: 10px;
+	background-color: aquamarine;
+	border: 2px solid red;
+}
+
+.striker_buttons {
+	border: 2px solid red;
+}
+
+.btn_rent {
+	border: 2px solid red;
+	width: 156px;
+	height: 62px;
+}
+
+.btn_learn {
+	border: 2px solid red;
+	width: 156px;
+	height: 62px;
+}
