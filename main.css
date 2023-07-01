@@ -21,32 +21,8 @@ img {
 	width: 100%;
 	border: 2px solid red;
 }
-.head_table { 
-	display: flex;
-	
-}
-.head_logo {
-	width: 122px;
-	height: 41px;
+
+.head_container {
 	border: 2px solid red;
 }
-.head_empty {
-	border: 2px solid red;
-}
-.head_menu {
-	border: 2px solid red;
- }
-.head_menu_col {
-	border: 2px solid red;
- }
-.main { }
-.striker { }
-.about { }
-.needs { }
-.our { }
-.gallery { }
-.rent { }
-.reviews { }
-.faq { }
-.contacts { }
-.footer { }
+
