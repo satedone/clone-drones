@@ -19,7 +19,6 @@ img {
  }
 
 .header { 
-	width: 100%;
 	background-color: black;
 	color: white;
 }
@@ -36,10 +35,19 @@ img {
 	align-items: end;
 }	
 
-.menu_item {
+.navbar-nav {
 	font-family: Lato, sans-serif;
 	font-size: 16px;
 	font-weight: 700;
+	transition: color 0.3s;
+}
+
+.navbar-nav a:hover {
+	color: #0ad19d;;
+}
+
+.nav-link {
+	color: #ffffff;
 }
 
 .striker {
@@ -90,10 +98,11 @@ img {
 .gray_line {
 	margin-left: 15px;
 	height: 3px;
-	width: 10%;
 	background-color: #144d3e;
 	border-radius: 2px;
 }
+
+
 
 .button_rent {
 	width: 156px;
@@ -101,7 +110,13 @@ img {
 	color: white;
 	background-color: #F52E62;
 	border: 0px;
+	font-size: 13.2px;
 }
+
+.button_rent:hover {
+	background-color: #0ad19d;
+}
+
 
 .button_learn {
 	width: 156px;
@@ -109,8 +124,15 @@ img {
 	color: white;
 	background-color: rgba(255, 255, 255, 0);
 	border: 1px solid rgb(116, 120, 124);
+	font-size: 13.2px;
   }
   
+.button_learn:hover {
+	background-color: #ffffff;
+	color: black;
+}
+
+
 
 .about {
 	background-image: url(img/background_about.png);
@@ -139,19 +161,28 @@ img {
 }
 
 .about_content {
-
+	
 }
 
 .about_title {
-
+	font-family: "Fjalla One", sans-serif;
+	font-size: 40px;
+	line-height: 52px;
+	text-transform: uppercase;
 }
 
 .about p {
+	margin-top: 25px;
+	font-family: Lato, sans-serif;
+	font-size: 18px;
+	line-height: 28.8px;
 
 }
 .about span {
 	color: rgb(197, 197, 197);
-
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	line-height: 27.2px;
 }  
 .table_statistic {
 	min-width: 350px;
@@ -164,15 +195,19 @@ img {
 }
 
 .stat_col_green {
-
-	font-size: 27px;
+	font-family: "Fjalla One", sans-serif;
+	font-size: 30px;
 	color: rgb(10, 209, 157);
 	vertical-align: baseline;
+	letter-spacing: 0.81px;
+	line-height: 48px;
 }
 
 .stat_col_white {
-
-	font-size: 23px;
+	font-family: "Fjalla One", sans-serif;
+	font-size: 25px;
+	line-height: 40px;
 	vertical-align: baseline;
+	width: 180px;	
 }
 
