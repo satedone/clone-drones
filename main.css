@@ -16,24 +16,35 @@ img {
 	max-width: 1200px;
 	padding: 15px 15px 15px 15px;
 	margin: 0 auto;
-	border: 2px solid red;
  }
 
 .header { 
 	width: 100%;
-	border: 2px solid red;
 	background-color: black;
 	color: white;
 }
 
 .head_container {
-	border: 2px solid red;
+
+}
+
+.navbar-brand {
+	width: 122px;
+}
+
+.navbar-nav {
+	align-items: end;
+}	
+
+.menu_item {
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	font-weight: 700;
 }
 
 .striker {
 	background-image: url(img/striker_drones.jpg);
 	background-position: center;
-	border: 2px solid red;
 	min-height: 630px;
 }
 
@@ -105,13 +116,11 @@ img {
 	background-image: url(img/background_about.png);
 	background-position: center;
 	position: relative;
-	border: 2px solid red;
 }
 .about_container {
 	min-height: 500px;
 	position: relative;
 	z-index: 2;
-	border: 2px solid red;
 } 
 
 .about::before {
@@ -126,43 +135,43 @@ img {
 }
 
 .drone_img_about img {
-	border: 2px solid red;
+
 }
 
 .about_content {
-	border: 2px solid red;
+
 }
 
 .about_title {
-	border: 2px solid red;
+
 }
 
 .about p {
-	border: 2px solid red;
+
 }
 .about span {
 	color: rgb(197, 197, 197);
-	border: 2px solid red;
+
 }  
 .table_statistic {
 	min-width: 350px;
-	border: 2px solid red;
+
 	
 }
 
 .stat_row {
-	border: 2px solid red;
+
 }
 
 .stat_col_green {
-	border: 2px solid red;
+
 	font-size: 27px;
 	color: rgb(10, 209, 157);
 	vertical-align: baseline;
 }
 
 .stat_col_white {
-	border: 2px solid red;
+
 	font-size: 23px;
 	vertical-align: baseline;
 }
