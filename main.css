@@ -79,6 +79,7 @@ img {
 .gray_line {
 	margin-left: 15px;
 	height: 3px;
+	width: 10%;
 	background-color: #144d3e;
 	border-radius: 2px;
 }
