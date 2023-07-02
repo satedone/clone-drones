@@ -145,7 +145,7 @@ img {
 	z-index: 2;
 } 
 
-.about::before {
+.about:before {
 	content: "";
 	position: absolute;
 	top: 0;
@@ -211,3 +211,12 @@ img {
 	width: 180px;	
 }
 
+.easy_container {
+
+}
+
+.easy_col{
+	border: 1px solid red;
+	width: 440px;
+	height: 370px;
+}
