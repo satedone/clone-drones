@@ -175,7 +175,7 @@ img {
 }  
 .table_statistic {
 	min-width: 350px;
-
+	padding-bottom: 35px;
 	
 }
 
@@ -201,7 +201,7 @@ img {
 }
 
 .easy_col {
-
+	
 }
 
 .easy_col_bgnum {
@@ -249,8 +249,12 @@ img {
 	width: 70px;
 	height: 70px;
 	z-index: 1;
-
+	color: #f52e62;
 }
+
+
+
+
 
 .easy_col_title {
 	font-size: 23px;
