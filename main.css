@@ -80,7 +80,6 @@ img {
 	}
 }
 
-
 .striker_title span {
 	font-family:  Lato, sans-serif;
 	font-size: 18px;
@@ -93,7 +92,6 @@ img {
 	background-color: #0ad19d;
 	border-radius: 2px;
   }
-  
 
 .gray_line {
 	margin-left: 15px;
@@ -101,8 +99,6 @@ img {
 	background-color: #144d3e;
 	border-radius: 2px;
 }
-
-
 
 .button_rent {
 	width: 156px;
@@ -156,14 +152,6 @@ img {
 	z-index: 1;
 }
 
-.drone_img_about img {
-
-}
-
-.about_content {
-	
-}
-
 .about_title {
 	font-family: "Fjalla One", sans-serif;
 	font-size: 40px;
@@ -191,10 +179,6 @@ img {
 	
 }
 
-.stat_row {
-
-}
-
 .stat_col_green {
 	font-family: "Fjalla One", sans-serif;
 	font-size: 30px;
@@ -217,47 +201,65 @@ img {
 }
 
 .easy_col {
-	border: 1px solid red;
+
 }
 
 .easy_col_bgnum {
-	border: 1px solid red;
+
 	height: 150px;
 }
 
-.easy_cover {
+.easy_cover1 {
 	position: relative;
 	background-image: url(/img/01num.svg);
 	background-repeat: no-repeat;
 	background-size: 150%;
+	background-position: 0 0;	
+}
+
+.easy_cover2 {
+	position: relative;
+	background-image: url(/img/02num.svg);
+	background-repeat: no-repeat;
+	background-size: 150%;
 	background-position: 0 0;
-	
-	
+}
+
+.easy_cover3 {
+	position: relative;
+	background-image: url(/img/03num.svg);
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position: 0 0;	
+}
+
+.easy_cover1::before, 
+.easy_cover2::before,
+.easy_cover3::before {
+	content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .easy_col_imgcover {
-	border: 1px solid red;
 	width: 70px;
 	height: 70px;
-	
+	z-index: 1;
 
 }
 
 .easy_col_title {
-	border: 1px solid red;
 	font-size: 23px;
 	line-height: 36.8px;
 	color: rgb(28, 29, 30);
 	font-family:  "Fjalla One", sans-serif;
-
-
-}
-
-.easy_col_lines {
-	border: 1px solid red;
+	z-index: 1;
 }
 
 .easy_col_text {
-	border: 1px solid red;
 	flex: 1;
 }
