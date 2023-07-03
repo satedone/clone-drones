@@ -218,8 +218,46 @@ img {
 
 .easy_col {
 	border: 1px solid red;
+}
+
+.easy_col_bgnum {
+	border: 1px solid red;
+	height: 150px;
+}
+
+.easy_cover {
+	position: relative;
 	background-image: url(/img/01num.svg);
-	background-position: auto;
+	background-repeat: no-repeat;
+	background-size: 150%;
+	background-position: 0 0;
+	
+	
+}
+
+.easy_col_imgcover {
+	border: 1px solid red;
+	width: 70px;
+	height: 70px;
+	
 
 }
 
+.easy_col_title {
+	border: 1px solid red;
+	font-size: 23px;
+	line-height: 36.8px;
+	color: rgb(28, 29, 30);
+	font-family:  "Fjalla One", sans-serif;
+
+
+}
+
+.easy_col_lines {
+	border: 1px solid red;
+}
+
+.easy_col_text {
+	border: 1px solid red;
+	flex: 1;
+}
