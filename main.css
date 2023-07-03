@@ -169,6 +169,7 @@ img {
 	font-size: 40px;
 	line-height: 52px;
 	text-transform: uppercase;
+	padding-top: 35px;
 }
 
 .about p {
@@ -215,9 +216,10 @@ img {
 
 }
 
-.easy_col{
+.easy_col {
 	border: 1px solid red;
-	width: 440px;
-	height: 370px;
+	background-image: url(/img/01num.svg);
+	background-position: auto;
+
 }
 
