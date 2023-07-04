@@ -197,11 +197,13 @@ img {
 }
 
 .easy_container {
-
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .easy_col {
-	
+	padding-left: 30px;
+    padding-right: 30px;
 }
 
 .easy_col_bgnum {
@@ -263,6 +265,14 @@ img {
 	font-family:  "Fjalla One", sans-serif;
 	z-index: 1;
 }
+
+.easy_col_lines {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
 
 .easy_col_text {
 	flex: 1;
