@@ -193,8 +193,8 @@ img {
 }
 
 .easy_container {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .easy_col {
@@ -271,24 +271,28 @@ img {
 .needs {
 	border: 2px solid red;
 	background-color: #dddddd;
+	
 }
 
 .needs_container {
 	border: 2px solid red;
-
+	width: 100%;
 }
 
 .needs_col_discription {
 	border: 2px solid red;	
 }
 
-.needs_col_backgroung {
+.needs_col_background {
 	border: 2px solid red;
+	background: url(img/background_needs.png) center center/auto no-repeat local;
+	min-height: 700px;
+	
 }
 
 .needs_bg {
 	border: 2px solid red;
-
+	
 }
 
 .button_choose {
@@ -297,17 +301,35 @@ img {
 	color: white;
 	background-color: #F52E62;
 	border: 0px;
-	font-size: 13.2px;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 12px;
 }
+
 
 .button_choose:hover {
 	background-color: #0ad19d;
 }
 
+@media(max-width: 1200px) {
+	.button_choose {
+		margin-bottom: 50px;
+	}
+}
+
+
+
 .needs_content {
 	padding: 30px 150px 30px 150px;
-
+	
 }
+
+@media (min-width: 100px) {
+	.needs_content {
+		padding: 10px 50px 10px 50px;
+	}
+}
+
 
 .needs_title {
 	font-family: "Fjalla One", sans-serif;
@@ -316,3 +338,21 @@ img {
 	text-transform: uppercase;
 	padding-top: 35px;
 }
+
+.needs_content p {
+	color: rgb(28, 29, 30);
+	font-family: Lato, sans-serif;
+	font-size: 18px;
+	line-height: 28.8px;
+
+}
+
+.needs_content span {
+	color: rgb(28, 29, 30);
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	line-height: 27.2px;
+	font-weight: 400;
+	padding-bottom: 60px;
+}
+
