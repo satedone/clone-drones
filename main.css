@@ -108,7 +108,6 @@ img {
 	background-color: #0ad19d;
 }
 
-
 .button_learn {
 	width: 156px;
 	height: 62px;
@@ -159,7 +158,6 @@ img {
 	font-family: Lato, sans-serif;
 	font-size: 18px;
 	line-height: 28.8px;
-
 }
 
 .about span {
@@ -203,7 +201,6 @@ img {
 }
 
 .easy_col_bgnum {
-
 	height: 150px;
 }
 
@@ -269,31 +266,19 @@ img {
 }
 
 .needs {
-	border: 2px solid red;
-	background-color: #dddddd;
-	
+	background-color: #f0f0f0;
 }
 
 .needs_container {
-	border: 2px solid red;
 	width: 100%;
 }
 
-.needs_col_discription {
-	border: 2px solid red;	
-}
 
 .needs_col_background {
-	border: 2px solid red;
 	background: url(img/background_needs.png) center center/auto no-repeat local;
 	min-height: 700px;
-	
 }
 
-.needs_bg {
-	border: 2px solid red;
-	
-}
 
 .button_choose {
 	width: 220px;
@@ -317,11 +302,8 @@ img {
 	}
 }
 
-
-
 .needs_content {
 	padding: 30px 150px 30px 150px;
-	
 }
 
 @media (min-width: 100px) {
@@ -335,7 +317,6 @@ img {
 	font-family: "Fjalla One", sans-serif;
 	font-size: 40px;
 	line-height: 52px;
-	text-transform: uppercase;
 	padding-top: 35px;
 }
 
@@ -344,7 +325,6 @@ img {
 	font-family: Lato, sans-serif;
 	font-size: 18px;
 	line-height: 28.8px;
-
 }
 
 .needs_content span {
