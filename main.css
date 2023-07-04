@@ -267,3 +267,25 @@ img {
 .easy_col_text {
 	flex: 1;
 }
+
+.needs {
+	border: 2px soled red;
+}
+
+.needs_container {
+	border: 2px soled red;
+
+}
+
+.needs_col_discription {
+	border: 2px soled red;
+}
+
+.needs_col_backgroung {
+	border: 2px soled red;
+}
+
+.needs_bg {
+	border: 2px soled red;
+
+}
