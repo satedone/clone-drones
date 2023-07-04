@@ -269,23 +269,50 @@ img {
 }
 
 .needs {
-	border: 2px soled red;
+	border: 2px solid red;
+	background-color: #dddddd;
 }
 
 .needs_container {
-	border: 2px soled red;
+	border: 2px solid red;
 
 }
 
 .needs_col_discription {
-	border: 2px soled red;
+	border: 2px solid red;	
 }
 
 .needs_col_backgroung {
-	border: 2px soled red;
+	border: 2px solid red;
 }
 
 .needs_bg {
-	border: 2px soled red;
+	border: 2px solid red;
 
+}
+
+.button_choose {
+	width: 220px;
+	height: 62px;
+	color: white;
+	background-color: #F52E62;
+	border: 0px;
+	font-size: 13.2px;
+}
+
+.button_choose:hover {
+	background-color: #0ad19d;
+}
+
+.needs_content {
+	padding: 30px 150px 30px 150px;
+
+}
+
+.needs_title {
+	font-family: "Fjalla One", sans-serif;
+	font-size: 40px;
+	line-height: 52px;
+	text-transform: uppercase;
+	padding-top: 35px;
 }
