@@ -213,7 +213,7 @@ img {
 
 .easy_cover1 {
 	position: relative;
-	background-image: url(/img/01num.svg);
+	background-image: url(img/01num.svg);
 	background-repeat: no-repeat;
 	background-size: 150%;
 	background-position: 0 0;	
@@ -221,7 +221,7 @@ img {
 
 .easy_cover2 {
 	position: relative;
-	background-image: url(/img/02num.svg);
+	background-image: url(img/02num.svg);
 	background-repeat: no-repeat;
 	background-size: 150%;
 	background-position: 0 0;
@@ -229,7 +229,7 @@ img {
 
 .easy_cover3 {
 	position: relative;
-	background-image: url(/img/03num.svg);
+	background-image: url(img/03num.svg);
 	background-repeat: no-repeat;
 	background-size: 150%;
 	background-position: 0 0;	
