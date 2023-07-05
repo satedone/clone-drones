@@ -376,6 +376,13 @@ img {
 	border: 1px solid red;
 }
 
+.our_green_lines {
+	border: 1px solid red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	
+}
+
 /* <!-- Carousel --> */
 
 @media (max-width: 767px) {
@@ -407,7 +414,7 @@ img {
 }
 @media (min-width: 1400px) {
 	.our_carusel {
-		padding: 100px;
+		padding: 70px;
 	}
 }
 
