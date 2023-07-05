@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap');
 
+@media (max-width: 300px) {
+	body {
+	  max-width: 300px;
+	  margin: 0 auto;
+	}
+  }
+
+
 * {
     margin: 0;
     padding: 0;
@@ -332,7 +340,76 @@ img {
 	font-family: Lato, sans-serif;
 	font-size: 16px;
 	line-height: 27.2px;
-	font-weight: 400;
 	padding-bottom: 60px;
 }
 
+
+.our {
+	border: 1px solid red;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.our_container {
+	border: 1px solid red;
+}
+
+.our_title {
+	border: 1px solid red;
+	font-family: "Fjalla One", sans-serif;
+	font-size: 37px;
+	line-height: 48.1px;
+}
+
+.easy_col_lines {
+	border: 1px solid red;
+}
+
+.our_sub {
+	border: 1px solid red;
+	font-family: Lato, sans-serif;
+	font-size: 18px;
+	line-height: 28.8px;
+}
+
+.our_carusel {
+	border: 1px solid red;
+	max-width: 620px;
+}
+
+/* <!-- Carousel --> */
+
+@media (max-width: 767px) {
+	.carousel-inner .carousel-item > div {
+	  display: none;
+	}
+	.carousel-inner .carousel-item > div:first-child {
+	  display: block;
+	}
+  }
+  
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+	display: flex;
+  }
+  
+  @media (min-width: 768px) {
+	.carousel-inner .carousel-item-end.active,
+	.carousel-inner .carousel-item-next {
+	  transform: translateX(50%);
+	}
+  
+	.carousel-inner .carousel-item-start.active, 
+	.carousel-inner .carousel-item-prev {
+	  transform: translateX(-50%);
+	}
+  }
+  
+  .carousel-inner .carousel-item-end,
+  .carousel-inner .carousel-item-start { 
+	transform: translateX(0);
+  }
+  
+
+/* <!-- Carousel --> */
