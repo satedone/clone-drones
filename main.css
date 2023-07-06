@@ -130,7 +130,7 @@ img {
 	color: black;
 }
 
-.about {
+.about, .our {
 	background-image: url(img/background_about.png);
 	background-position: center;
 	position: relative;
@@ -142,7 +142,13 @@ img {
 	z-index: 2;
 } 
 
-.about:before {
+.our_container {
+	min-height: 700px;
+	position: relative;
+	z-index: 2;
+} 
+
+.about:before, .our:before {
 	content: "";
 	position: absolute;
 	top: 0;
