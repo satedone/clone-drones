@@ -516,13 +516,94 @@ img {
 }
 
 .card-characteristics {
-	
+	color: rgb(197, 197, 197);
+	text-align: left;
 }
 
 .card-img-gray-text {
 	font-family: Lato, sans-serif;
 	font-size: 20px;
 	line-height: 32px;
-	color: rgb(197, 197, 197);
+
 }
 
+.card-img-plus {
+	font-size: 35px;
+	line-height: 20px;
+}
+
+.accordion {
+	list-style: none;
+}
+
+.accordion__control {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+	padding-top: 20px;
+}
+
+.accordion__control::-webkit-details-marker {
+	display: none;
+}
+
+.accordion__title {
+	margin: 0;
+}
+
+.accordion__icon {
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+.accordion__icon::before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 50%;
+	height: 1px;
+	background-color: white;
+	transform: translate(-50%, -50%);
+}
+
+.accordion__icon::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 1px;
+	height: 50%;
+	background-color: white;
+	transform: translate(-50%, -50%);
+}
+
+.accordion__content {
+	padding-top: 40px;
+}
+
+.card-characteristics[open] .accordion__icon::after {
+	display: none;
+}
+
+
+.accord-green-text {
+	color: rgb(10, 209, 157);
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	line-height: 27.2px;
+	font-weight: 700;
+	
+
+}
+
+.accord-gray-text {
+	color: rgb(197, 197, 197);
+	font-family: Lato, sans-serif;
+	font-size: 16px;
+	line-height: 27.2px;
+	padding-bottom: 25px;
+}
