@@ -377,8 +377,8 @@ img {
 }
 
 .our {
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 .our_title {
@@ -426,11 +426,8 @@ img {
 	  transform: translateX(-50%);
 	}
 }
-@media (min-width: 1400px) {
-	.our_carusel {
-		padding: 70px;
-	}
-}
+
+
 
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start { 
