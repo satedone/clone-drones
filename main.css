@@ -439,6 +439,8 @@ img {
   
 .card {
 	padding: 30px;
+	background-color: transparent;
+	border: none;
 }
 
 /* <!-- Carousel --> */
@@ -497,3 +499,30 @@ img {
 
 
 /* <!-- SEC___Carousel --> */
+
+.card-img-discription {
+	font-family: "Fjalla One", sans-serif;
+	font-size: 25px;
+	line-height: 40px;
+	font-weight: 700;
+}
+
+.card-img-white-text {
+	color: white;
+}
+
+.card-img-green-text {
+	color: rgb(10, 209, 157);
+}
+
+.card-characteristics {
+	
+}
+
+.card-img-gray-text {
+	font-family: Lato, sans-serif;
+	font-size: 20px;
+	line-height: 32px;
+	color: rgb(197, 197, 197);
+}
+
