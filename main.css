@@ -444,7 +444,6 @@ img {
 /* <!-- SEC___Carousel --> */
 
 
-
 .animated-carousel {
   position: relative;
   width: 100%;
@@ -604,3 +603,71 @@ img {
 	line-height: 27.2px;
 	padding-bottom: 25px;
 }
+
+
+/* rent BLOCK */
+.rent {
+	width: 100%;
+	background-image: url(./img/rent_background.jpg);
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	padding: 90px 0;
+}
+
+.rent_content {
+		
+}
+
+
+.rent_title{
+	font-size: 34px;
+	font-family: "Fjalla One", sans-serif;
+	line-height: 44.2px;
+	letter-spacing: 1.632px;
+	color: rgb(28, 29, 30);
+	
+}
+
+.rent_collumn {
+	padding: 0 24px;
+}
+
+.rent_col_lines {
+	padding: 25px 0;
+}
+
+.button_rent_green {
+	width: 128px;
+	height: 50px;
+	border: none;
+	color: white;
+	font-size: 12px;
+	font-weight: 700;
+	font-family: Lato, sans-serif;
+	line-height: 18px;
+	background-color: #0ad19d;
+}
+
+.button_rent_green:hover {
+	background-color: #F52E62;
+}
+
+.rent_collumn p {
+	font-size: 18px;
+	font-family: Lato, sans-serif;
+	line-height: 28.8px;
+	color: rgb(81, 81, 81)	;
+	max-width: 450px;
+	background: rgb(236, 236, 236);
+}
+
+@media (min-width: 768px) {
+	.rent_collumn {
+	  padding-right: 10%;
+	}
+  }
+
+
+
+/* rent BLOCK */
