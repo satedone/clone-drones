@@ -688,16 +688,46 @@ img {
 
 .blog_title {
 
-	font-size: 34px;
+	font-size: 40px;
 	font-family: "Fjalla One", sans-serif;
-	line-height: 44.2px;
-	letter-spacing: 1.632px;
+	line-height: 52px;
+	letter-spacing: 1.92px;
 	color: rgb(28, 29, 30);
 }
 
 .blog_content p {
+	font-size: 18px;
+	font-family: Lato, sans-serif;
+	line-height: 28.8px;
+	color: rgb(81, 81, 81);
+}
+
+.color-line-red {
+	width: 80px;
+	height: 4px;
+	background: #F52E62;
+	
+}
+
+.color-line-red-small {
+	width: 40px;
+	height: 4px;
+	background: #fdd5e0;
 
 }
+
+@media (min-width: 768px) {
+	.color-line-red {
+		width: 8%;
+	}
+	.color-line-red-small {
+		width: 4%;
+	}
+}
+
+
+
+
 
 .blog_window {
 	min-height: 450px;
