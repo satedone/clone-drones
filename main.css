@@ -261,7 +261,6 @@ img {
 	color: #f52e62;
 }
 
-
 .easy_col_title {
 	font-size: 23px;
 	line-height: 36.8px;
@@ -427,8 +426,6 @@ img {
 	}
 }
 
-
-
 .carousel-inner .carousel-item-end,
 .carousel-inner .carousel-item-start { 
 	transform: translateX(0);
@@ -442,7 +439,6 @@ img {
 
 /* <!-- Carousel --> */
 /* <!-- SEC___Carousel --> */
-
 
 .animated-carousel {
   position: relative;
@@ -469,7 +465,6 @@ img {
   }
 }
 
-
 .animated-carousel .carousel__button {
   position: absolute;
   top: 50%;
@@ -491,8 +486,6 @@ img {
 .animated-carousel .carousel__button--next {
   right: 0;
 }
-
-
 
 /* <!-- SEC___Carousel --> */
 
@@ -520,7 +513,6 @@ img {
 	font-family: Lato, sans-serif;
 	font-size: 20px;
 	line-height: 32px;
-
 }
 
 .card-img-plus {
@@ -585,14 +577,12 @@ img {
 	display: none;
 }
 
-
 .accord-green-text {
 	color: rgb(10, 209, 157);
 	font-family: Lato, sans-serif;
 	font-size: 16px;
 	line-height: 27.2px;
 	font-weight: 700;
-	
 
 }
 
@@ -603,7 +593,6 @@ img {
 	line-height: 27.2px;
 	padding-bottom: 25px;
 }
-
 
 /* rent BLOCK */
 .rent {
@@ -621,7 +610,6 @@ img {
 	line-height: 44.2px;
 	letter-spacing: 1.632px;
 	color: rgb(28, 29, 30);
-	
 }
 
 .rent_collumn {
@@ -658,7 +646,6 @@ img {
 	line-height: 28.8px;
 	color: rgb(81, 81, 81)	;
 	max-width: 450px;
-
 }
 
 @media (min-width: 768px) {
@@ -679,7 +666,6 @@ img {
 
 
 .blog_title {
-
 	font-size: 40px;
 	font-family: "Fjalla One", sans-serif;
 	line-height: 52px;
@@ -698,14 +684,12 @@ img {
 	width: 80px;
 	height: 4px;
 	background: #F52E62;
-	
 }
 
 .color-line-red-small {
 	width: 40px;
 	height: 4px;
 	background: #fdd5e0;
-
 }
 
 @media (min-width: 768px) {
@@ -718,14 +702,10 @@ img {
 }
 
 
-
-
-
 .blog_window {
 	min-height: 450px;
 	border: 1px solid rgba(33, 39, 54, 0.12);
-	margin-bottom: 25px;
-
+	margin-bottom: 25px
 }
 
 .blog_window p {
@@ -734,7 +714,6 @@ img {
 	line-height: 500px;
 	font-weight: 600;
 	color: rgb(28, 29, 30);
-	
 }
 
 .button_read_red {
@@ -765,7 +744,6 @@ img {
 	background-size: cover;
 	color: white;
 	transition: height 500ms;
-	
 }
 
 .faq_header {
@@ -789,7 +767,6 @@ img {
 	width: 80px;
 	height: 4px;
 	background: #0ad19d;
-	
 }
 
 .color-line-green-small {
@@ -833,7 +810,6 @@ img {
 	margin-top: 45px;
 	margin-bottom: 110;
 	min-block-size: 280px;
-	
 }
 
 .faq_item_collum {
@@ -850,7 +826,6 @@ img {
 .faq_item_title {
 	font-size: 24px;
 	padding: 0px;
-	
 }
 
 .faq_item_text {
@@ -861,7 +836,6 @@ img {
 	color: rgb(197, 197, 197);
 	font-weight: 400;
 	line-height: 27px;
-	
 }
 
 @media (min-width: 680px ) {
@@ -875,8 +849,6 @@ img {
 		padding: 120px 40px;
 	}	
 }
-
-
 
 /* FAQ BLOCK */
 
@@ -895,13 +867,11 @@ img {
 
 
 .contacts__inner {
-
 	padding-top: 20px;
 	color: white;
 	display: flex;
 	flex-direction: column;
 	height: auto;
-	
 }
 
 .contacts__title {
@@ -911,21 +881,18 @@ img {
 	line-height: 52px;
 	letter-spacing: 1.92px;
 	margin-bottom: 20px;
-	
 }
 
 .contacts__text {
 	padding: 0 20px;
 	font-family: Lato, sans-serif;
-	width: 580px;
+	width: 365px;
 	font-size: 18px;
 	line-height: 28.8px;
 	margin-left: 50px;
-	
 }
 
 .contacts__contact_form_dark {
-	
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -937,7 +904,6 @@ img {
 	padding-top: 30px;
 	margin: 0 20px;
 	margin-bottom: 30px;
-
 }
 
 .contacts__contact_form_input_text {
@@ -946,13 +912,11 @@ img {
 	flex-direction: column;
 	align-items: stretch;
 	color: white;
-
 }
 
 .contacts__contact_form_input_text input {
 	height: 53px;
 	border: 0;
-
 }
 
 .contacts__input_text {
@@ -962,19 +926,11 @@ img {
 	line-height: 14.4px;
 	color: rgb(255, 255, 255);
 	background-color: rgba(28, 29, 30, 0.8);
-	
 }
 
 .message_box .contacts__input_text {
 	height: 160px;
-	
 }
-
-.contacts__contact_form_input_text {
-
-  }
-
-
 
 .contacts__action_button {
 	width: 70%;
@@ -988,7 +944,6 @@ img {
 	font-size: 12px;
 	color: white;
 	font-weight: 700;
-
 }
 
 .contacts__action_button:hover {
@@ -1003,7 +958,7 @@ img {
 		align-items: center;
 	}
 	.contacts__contact_form_dark {
-		width: 580px;
+		width: 500px;
 		margin-bottom: 20px;
 		padding: 10px 0px 0px 0px;
 	}
@@ -1023,7 +978,6 @@ img {
 		display: flex;
 		flex-direction: row;
 		width: 1024px;
-
 	}
 	.contacts__container {
 		display: flex;
@@ -1042,10 +996,6 @@ img {
 	font-size: 16px;
 	font-family: Lato, sans-serif;
 	line-height: normal;
-
-
-
-
 }
 
 .footer_table {
@@ -1054,7 +1004,7 @@ img {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
-	padding-right: 0;
+
 }
 
 
@@ -1089,7 +1039,12 @@ img {
 	.footer_logo img {
 		margin: 0;
 	}
+}
 
+@media (min-width: 1000px) {	
+	.footer_table {
+		padding-right: 0;
+	}
 }
 
 .footer_divider {
@@ -1099,8 +1054,6 @@ img {
 	opacity: .2;
 	content: "";
 	margin-left: 30px;
-
-	
 }
 
 .footer_bottom {
@@ -1138,10 +1091,6 @@ img {
 	}
 }
 
-
-
-
-
 .footer_bottom_col1 {
 	margin: -5px -10px 0;
 	justify-self: start;
@@ -1156,7 +1105,6 @@ img {
 	margin: -5px -10px 0;
 	justify-self: end;
 	align-self: center;
-
 }
 
 .footer hr {
@@ -1183,15 +1131,14 @@ img {
 
 .test_column {
 	text-align: center;
-
 }
 
 .test_title {
 	font-family: "Fjalla One", sans-serif;
-	font-size: 34px;
-	letter-spacing: 1.632px;
-	line-height: 44.2px;
-	padding: 100px 0 50px 0;
+	font-size: 40px;
+	letter-spacing: 1.92px;
+	line-height: 52px;
+	padding: 40px 0 0 0;
 	color: rgb(28, 29, 30);
 }
 
@@ -1205,13 +1152,12 @@ img {
 	line-height: 28.8px;
 	padding: 40px 15px 25px 15px;
 	color: rgb(81, 81, 81);
-
 }
 
 .test_name {
 	font-family: "Fjalla One", sans-serif;
-	font-size: 22px;
-	line-height: 35.2px;
+	font-size: 25px;
+	line-height: 40px;
 	color: rgb(28, 29, 30);
 	padding-bottom: 25px;
 }
@@ -1231,10 +1177,21 @@ img {
 	transition: opacity 0.3s ease-in-out;
 }
 
+.test_round:hover {
+	background: #555657;
+	opacity: 1;
+}
+
+
 .test_round.active {
 	opacity: 1;
 }
 
+.test_img {
+	object-fit: cover;
+	object-position: right;
+	min-height: 100%;
+}
 
 .test_text.active,
 .test_name.active,
@@ -1248,9 +1205,6 @@ img {
   display: none;
   opacity: 0;
 }
-
-
-
   
 .test_text.active, .test_name.active {
 	opacity: 1;
@@ -1262,7 +1216,6 @@ img {
 	animation: fadeIn 1.5s ease-in-out;
 }
 
-
 @keyframes fadeIn {
 	0% {
 	  opacity: 0;
@@ -1272,7 +1225,5 @@ img {
 	}
 }
   
-
-
 
 /* Testimonials */

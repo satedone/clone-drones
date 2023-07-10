@@ -61,7 +61,7 @@ const testImages = document.querySelectorAll('.test_img');
 
 testRounds.forEach((round, index) => {
   round.addEventListener('click', () => {
-    // При натисканні на test_round, змінюємо класи для відображення потрібного слайда
+    
     testTexts.forEach(text => {
       text.classList.remove('active');
     });
